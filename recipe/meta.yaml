@@ -1,5 +1,5 @@
 {% set name = "jupyterlab_miami_nights" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_miami_nights-{{ version }}.tar.gz
-  sha256: 6789a03146945be80f138afd84d16b89d2f5ea5b2e5160c877b562974d436be7
+  sha256: ccf96a63e980418280da14298d75cd0336d71b6b22f5a0a63283b7a3e5922316
 
 build:
   number: 0
@@ -34,7 +34,7 @@ test:
 
 about:
   home: https://github.com/timkpaine/jupyterlab_miami_nights
-  summary: Combination of VS Code's SynthWave '84 and JupyterLab's Neon Night 
+  summary: Combination of VS Code's SynthWave '84 and JupyterLab's Neon Night
   license: BSD-3-Clause
   license_file: LICENSE
 
