@@ -1,5 +1,5 @@
 {% set name = "jupyterlab_miami_nights" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_miami_nights-{{ version }}.tar.gz
-  sha256: ccf96a63e980418280da14298d75cd0336d71b6b22f5a0a63283b7a3e5922316
+  sha256: 1c9c1fd2aea811529191d161da062dafd667766ecc63e63043352bdc2e8c8723
 
 build:
   number: 0
