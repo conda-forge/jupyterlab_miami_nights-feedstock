@@ -11,6 +11,8 @@ package:
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/jupyterlab_miami_nights-${{ version }}.tar.gz
   sha256: d5978fb8e305722d53bee1ea7ac90b9d24f22ecfdce2e5002daaaa22bef6919d
+  patches:
+    - pnpm-workspace.patch
 
 build:
   number: 1
